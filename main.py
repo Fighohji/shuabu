@@ -187,7 +187,6 @@ def main(_user, _passwd, min_1, max_1):
         return
     login_token, userid = login(user, password)
     if login_token == 0:
-        print(sys.argv[0], sys.arg[1])
         print("登陆失败！")
         return "login fail!"
 
